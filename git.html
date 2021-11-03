@@ -1,0 +1,46 @@
+// initialise project
+git init
+
+
+// set config
+git config --global user.name 'Paul Richards'
+git config --global user.email 'info@henryslaptops.com'
+
+
+// add file to staging
+
+/****************************************************************
+*.* = all / *.txt etc / = directory / git add . = whole project
+****************************************************************/
+
+git add <filename>
+
+
+// check staging area status
+git status
+
+
+// remove file from staging
+git rm --cached <filename>
+
+
+// commit files
+git commit -m '<Update info>'
+
+
+// create git ignore
+touch .gitignore
+
+- <filename> / *.txt or /dir for directory
+
+
+// create git branch from master repo
+git branch <name>
+
+
+// git branch switch
+git checkout <branch name>
+
+
+// combine branch with master repo
+git merge <branch name>
